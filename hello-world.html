@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="node_modules/react/dist/react.min.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.min.js"></script>
+    <script src="node_modules/babel-standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+
+      const render = () => ReactDOM.render(
+        <h1>你好，世界</h1>,
+        document.querySelector('#root')
+      );
+
+      render();
+
+    </script>
+  </body>
+</html>

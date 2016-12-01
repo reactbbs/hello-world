@@ -1,0 +1,25 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactbbs/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactbbs/hello-world/issues"
+  },
+  "homepage": "https://github.com/reactbbs/hello-world#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-standalone": "^6.19.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
